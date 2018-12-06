@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="tests.Google">
+        <methods>
+          <include name="testOne"/>
+          <include name="updateMainSheetResult"/>
+          <include name="getTestMethod"/>
+          <include name="clearMap"/>
+          <include name="getClassName"/>
+          <include name="updateStatusInExcel"/>
+          <include name="testTwo"/>
+          <include name="setBrowserAndTest"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- tests.Google -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Regression] -->

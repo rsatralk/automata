@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="20016" started-at="2018-12-06T23:27:52Z" finished-at="2018-12-06T23:28:12Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="20016" started-at="2018-12-06T23:27:52Z" finished-at="2018-12-06T23:28:12Z">
+      <class name="tests.Google">
+        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:tests.Google@3835c46]" name="startReport" is-config="true" duration-ms="16" started-at="2018-12-06T23:27:52Z" finished-at="2018-12-06T23:27:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24f360b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setBrowserAndTest()[pri:0, instance:tests.Google@3835c46]" name="setBrowserAndTest" is-config="true" duration-ms="3187" started-at="2018-12-06T23:27:52Z" finished-at="2018-12-06T23:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserAndTest -->
+        <test-method status="PASS" signature="getClassName()[pri:0, instance:tests.Google@3835c46]" name="getClassName" is-config="true" duration-ms="1" started-at="2018-12-06T23:27:55Z" finished-at="2018-12-06T23:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClassName -->
+        <test-method status="PASS" signature="testOne(java.lang.String, java.lang.String)[pri:1, instance:tests.Google@3835c46]" name="testOne" duration-ms="4609" started-at="2018-12-06T23:27:55Z" data-provider="dynamicDataProvider" finished-at="2018-12-06T23:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Batman]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="getTestMethod(org.testng.ITestResult)[pri:0, instance:tests.Google@3835c46]" name="getTestMethod" is-config="true" duration-ms="0" started-at="2018-12-06T23:27:55Z" finished-at="2018-12-06T23:27:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOne status=SUCCESS method=Google.testOne(java.lang.String, java.lang.String)[pri:1, instance:tests.Google@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethod -->
+        <test-method status="PASS" signature="clearMap()[pri:0, instance:tests.Google@3835c46]" name="clearMap" is-config="true" duration-ms="0" started-at="2018-12-06T23:28:00Z" finished-at="2018-12-06T23:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMap -->
+        <test-method status="PASS" signature="getTestMethod(org.testng.ITestResult)[pri:0, instance:tests.Google@3835c46]" name="getTestMethod" is-config="true" duration-ms="0" started-at="2018-12-06T23:28:00Z" finished-at="2018-12-06T23:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOne status=SUCCESS method=Google.testOne(java.lang.String, java.lang.String)[pri:1, instance:tests.Google@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethod -->
+        <test-method status="PASS" signature="testOne(java.lang.String, java.lang.String)[pri:1, instance:tests.Google@3835c46]" name="testOne" duration-ms="2661" started-at="2018-12-06T23:28:00Z" data-provider="dynamicDataProvider" finished-at="2018-12-06T23:28:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Superman]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="clearMap()[pri:0, instance:tests.Google@3835c46]" name="clearMap" is-config="true" duration-ms="0" started-at="2018-12-06T23:28:03Z" finished-at="2018-12-06T23:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMap -->
+        <test-method status="PASS" signature="getTestMethod(org.testng.ITestResult)[pri:0, instance:tests.Google@3835c46]" name="getTestMethod" is-config="true" duration-ms="1" started-at="2018-12-06T23:28:03Z" finished-at="2018-12-06T23:28:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTwo status=SUCCESS method=Google.testTwo(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.Google@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethod -->
+        <test-method status="PASS" signature="testTwo(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.Google@3835c46]" name="testTwo" duration-ms="3049" started-at="2018-12-06T23:28:03Z" data-provider="dynamicDataProvider" finished-at="2018-12-06T23:28:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Green Lantern]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Flash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="clearMap()[pri:0, instance:tests.Google@3835c46]" name="clearMap" is-config="true" duration-ms="0" started-at="2018-12-06T23:28:06Z" finished-at="2018-12-06T23:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMap -->
+        <test-method status="PASS" signature="getTestMethod(org.testng.ITestResult)[pri:0, instance:tests.Google@3835c46]" name="getTestMethod" is-config="true" duration-ms="0" started-at="2018-12-06T23:28:06Z" finished-at="2018-12-06T23:28:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTwo status=SUCCESS method=Google.testTwo(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.Google@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethod -->
+        <test-method status="PASS" signature="testTwo(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.Google@3835c46]" name="testTwo" duration-ms="2639" started-at="2018-12-06T23:28:06Z" data-provider="dynamicDataProvider" finished-at="2018-12-06T23:28:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wonder woman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shazam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="getTestMethod(org.testng.ITestResult)[pri:0, instance:tests.Google@3835c46]" name="getTestMethod" is-config="true" duration-ms="1" started-at="2018-12-06T23:28:08Z" finished-at="2018-12-06T23:28:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTwo status=SUCCESS method=Google.testTwo(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.Google@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethod -->
+        <test-method status="PASS" signature="clearMap()[pri:0, instance:tests.Google@3835c46]" name="clearMap" is-config="true" duration-ms="0" started-at="2018-12-06T23:28:08Z" finished-at="2018-12-06T23:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMap -->
+        <test-method status="PASS" signature="testTwo(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:tests.Google@3835c46]" name="testTwo" duration-ms="2161" started-at="2018-12-06T23:28:08Z" data-provider="dynamicDataProvider" finished-at="2018-12-06T23:28:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hawkman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Martian Manhunter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="clearMap()[pri:0, instance:tests.Google@3835c46]" name="clearMap" is-config="true" duration-ms="0" started-at="2018-12-06T23:28:10Z" finished-at="2018-12-06T23:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMap -->
+        <test-method status="PASS" signature="updateStatusInExcel(org.testng.ITestContext)[pri:0, instance:tests.Google@3835c46]" name="updateStatusInExcel" is-config="true" duration-ms="1444" started-at="2018-12-06T23:28:10Z" finished-at="2018-12-06T23:28:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24f360b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateStatusInExcel -->
+        <test-method status="PASS" signature="updateMainSheetResult(org.testng.ITestContext)[pri:0, instance:tests.Google@3835c46]" name="updateMainSheetResult" is-config="true" duration-ms="394" started-at="2018-12-06T23:28:12Z" finished-at="2018-12-06T23:28:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24f360b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateMainSheetResult -->
+      </class> <!-- tests.Google -->
+    </test> <!-- Regression -->
+  </suite> <!-- Regression -->
+</testng-results>
