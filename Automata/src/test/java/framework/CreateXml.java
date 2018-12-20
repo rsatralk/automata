@@ -76,7 +76,7 @@ public class CreateXml {
 		testng.setXmlSuites(mySuites);
 		
 		testng.setListenerClasses(listenerClasses);
-		
+		//testng.setVerbose(3);
 		testng.run();
 		
 	}
