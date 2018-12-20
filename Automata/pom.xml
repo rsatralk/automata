@@ -32,20 +32,26 @@
       <plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>exec-maven-plugin</artifactId>
-  <version>1.2.1</version>
+  <version>1.6.0</version>
   <executions>
     <execution>
+    <phase>test</phase>
       <goals>
         <goal>java</goal>
       </goals>
+      
     </execution>
   </executions>
   <configuration>
+      <includePluginDependencies>true</includePluginDependencies>
     <mainClass>main.MainRunner</mainClass>
+    <cleanupDaemonThreads>false</cleanupDaemonThreads>
+    <classpathScope>test</classpathScope>
     <arguments>
+    <argument>-classpath</argument>
     </arguments>
   </configuration>
-</plugin>
+</plugin>      
       </plugins>
     </pluginManagement>
   </build>
@@ -58,6 +64,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.14.3</version>
+    <scope>test</scope>
+</dependency>
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
