@@ -10,7 +10,6 @@ public class Reporter {
 	String suiteName;
 	public synchronized static ExtentReports getReporter(String suiteName)
 	{
-		
 		if(extent==null)
 		{
 			System.out.println("new instance");

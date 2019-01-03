@@ -1,7 +1,7 @@
 package dataprovider;
 
 /**
- * author=rsatralk
+ * author rsatralk
  */
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -32,25 +32,22 @@ public class DataProviderClass {
 	  List<Method> listm=new ArrayList<>();
 	  List<String> listv=new ArrayList<>();
 	
-	static volatile int counter=0;
+	public static volatile int counter=0;
 	
 	@DataProvider(name="dynamicDataProvider")
 	public synchronized Object[][] testData(ITestContext context) throws IOException, ClassNotFoundException
 	{
-		
-		
 		String className = cls.returnMap().get(1).substring(6);
 		String methodName=getMethodName(context,className).get(counter);
 		Object[][] arr=ex.setTestDataFromSheet(DataSheet, methodName, className);
 		counter++;
-		
-		for(int i=0;i<arr.length;i++)
+		/*for(int i=0;i<arr.length;i++)
 		{
 			for(int j=0;j<arr[i].length;j++)
 			{
 				System.out.println(i+" "+j+" "+arr[i][j]);
 			}
-		}
+		}*/
 		return arr;
 	}
 	

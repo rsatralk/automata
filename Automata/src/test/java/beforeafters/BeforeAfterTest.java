@@ -10,6 +10,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 
+import dataprovider.DataProviderClass;
 import framework.ReadExcel;
 import framework.Reporter;
 import selenium.CreateDriver;
@@ -64,6 +65,7 @@ public class BeforeAfterTest extends BeforeAfterSuiteClass{
 		{
 			driver.quit();
 		}
+		
 		
 	}
 	
